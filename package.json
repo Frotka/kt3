@@ -1,0 +1,21 @@
+{
+  "name": "kt3-prisma-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "contract:emit": "prisma contract emit",
+    "db:migrate": "prisma db migrate"
+  },
+  "dependencies": {
+    "@prisma/orm-postgres": "^8.0.0-rc.24",
+    "dotenv": "^18.0.10",
+    "express": "^4.18.2",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@prisma/cli-engine": "^0.10.0",
+    "@types/node": "^26.6.2",
+    "prisma": "^8.0.0-rc.34"
+  }
+}
